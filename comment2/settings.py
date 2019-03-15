@@ -74,16 +74,6 @@ WSGI_APPLICATION = 'comment2.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.mysql',
-#        'NAME': 'movie1',
-#		'USER':'root',
-#		'PASSWORD':'@123@@',
-#		'POST':'3306',
-#    }
-#}
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
